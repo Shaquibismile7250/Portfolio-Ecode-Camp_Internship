@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Shaquib - Web Developer</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <nav>
+            <div id="logo"><h2>Mohammad Shaquib</h2></div>
+            <ul id="sidemenu">
+                 <li><a onclick="closemenu()" href="#home_">Home</a></li>
+                 <li><a onclick="closemenu()" href="#about_">About</a></li>
+                 <li><a onclick="closemenu()" href="#skill_">Skills</a></li>
+                 <li><a onclick="closemenu()" href="#project_">Projects</a></li>
+                 <li><a onclick="closemenu()" href="#contact">Contact</a></li>
+                 <li><a onclick="closemenu()" id= "openResume" href="Resources\CV_Shaquib.pdf" download="Resources\CV_Shaquib.pdf">Resume</a></li>
+                 <i id="white" class="fa fa-solid fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i id="white2" class="fa fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>
+
+    <div id="home_" ></div>
+    <div id="home">
+        <h3><em>Hey! There</em></h3>
+        <h1>I'm Mohammad Shaquib</h1>
+        <h2><em><span id="hi"></span></em></h2>
+        <div id="social">
+            <a href="https://www.linkedin.com/in/mohammad-shaquib-a37960224" target="_blank"><img id="linkedin" src="https://www.fpsa.org/wp-content/uploads/linkedin-logo-copy.png" alt="linkedIn Logo"></a>
+            <a href="https://github.com/Shaquibismile7250" target="_blank"><img id="github_" src="https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg" alt="github logo"></a>
+            <a href= "https://x.com/IsmileShaquib?t=RhlIxaqxGZM_kJNMDHAGlA&s=09" target="_blank" ><img id="twitter_" src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1707955200&semt=ais" alt="twitter logo"></a>
+        </div>
+    </div>
+    <div id="about_"></div>
+    <div id="about">
+        <h1>About Me</h1>
+        <div id="about_in">
+            <div id="photo">
+                <img src="F:\Portfolio\-Portfolio-main\-Portfolio\Resources\Shaquib.jpeg">
+            </div>
+            <div id="info">
+                <h1>Mohammad Shaquib</h1>
+                <p>An ambitious and Self-Motivated <em>Software 
+                    Developer</em><br>with considerable Technical
+                    Skills. I believe bringing <br>design to life with code is essential.
+                    Adaptable and <br> ready to collaborate with good communication skill<p>
+                <div id="resume_btn">
+                <a id="viewbtn" href="F:\Portfolio\-Portfolio-main\-Portfolio\Resources\CV_Shaquib.pdf" target="_blank"><i class="fa fa-sharp fa-solid fa-eye">  Resume</i></a>
+                <a id="downbtn" href="F:\Portfolio\-Portfolio-main\-Portfolio\Resources\CV_Shaquib.pdf" download><i class="fa fa-download"> Resume</i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="skill_" ></div>
+    <div id="tech-stack">
+        <h1>Tech-Stacks</h1>
+        <div id="all_logo">
+            <div class="neeche"><img src="./Resources/java_.png" alt=""><h2>Java</h2></div>
+            <div class="neeche"><img src="./Resources/servlet.png" alt=""><h2>Servlet</h2></div>
+
+            <div class="neeche"><img src="./Resources/jdbc.png" alt=""><h2>JDBC</h2></div>
+            <div class="neeche"><img src="./Resources/react.png" alt=""><h2>React</h2></div>
+            <div class="neeche"><img src="./Resources/sql.png" alt=""><h2>SQL</h2></div>
+            
+            <div class="neeche"><img src="./Resources/javascript.png" alt=""><h2>Javascript</h2></div>
+            <div class="neeche"><img src="./Resources/css.png" alt=""><h2>CSS</h2></div>
+            <div class="neeche"><img src="./Resources/html.png" alt=""><h2>HTML</h2></div>
+        </div>
+        <h1 id="toolstitle">Tools</h1>
+        <div id="all_logo">
+            <div class="neeche"><img src="./Resources/spring_.png" alt=""><h2>Spring Tool</h2></div>
+            <div class="neeche"><img src="./Resources/oracleSql.png" alt=""><h2>Oracle SQL</h2></div>
+            <div class="neeche"><img src="./Resources/git.png" alt=""><h2>Git</h2></div>
+            <div class="neeche"><img src="./Resources/github.png" alt=""><h2>GitHub</h2></div>
+            <div class="neeche"><img src="./Resources/vscode.png" alt=""><h2>VS Code</h2></div>
+            <div class="neeche"><img src="./Resources/eclipse.png" alt=""><h2>Eclipse </h2></div>
+        </div>
+    </div>
+    
+    <div id="project_"></div>
+    <div id="projects"> 
+        <h1>Projects</h1>
+            <div class="project_">
+                <div class="project_img">
+                    <img src="F:\Portfolio\-Portfolio-main\-Portfolio\Resources\bike-showroom-interiors-1000x1000.jpg">
+                </div>
+                <div class="projects_Info">
+                  <h1>Bike ShowRoom </h1>
+                    <p>• Individual Project</p>
+                    <p>• Bike ShowRoom is a mini project created by myself</p>
+                    <p>• Functionalities: Bike Availability, Parts and Spares, Online Booking.</p>
+                    <p>• Duration: 2 Months</p>
+                    <p>• Tech Stack Used <span class="techstacktags">HTML,CSS | Vb.net| MySQL </p>
+                    <div class="project_btn">
+                    
+                    </div>
+                </div>
+            </div>
+        <div class="project_">
+            <div class="project_img">
+                <img src="F:\Portfolio\-Portfolio-main\-Portfolio\Resources\train-booking-system-blog.jpg">
+            </div>
+            <div class="projects_Info">
+                <h1>Online Reservation System</h1>
+                <p>• Storing and Retrieving user information.</p>
+                <p>• Functionalities: Register-User, Login-Id, Search-Train, Seat Availability Make-Payment, Book-Ticket</p>  
+                <p>• Duration: 30 days</p>
+                <p>• Position : Frontend Developer</p>
+                <p>• Role: Implemented the Admin page.</p>
+                <p>• Tech Stack Used <span class="techstacktags">HTML, CSS, JAVASCRIPT, SQL</span></p>
+                <div class="project_btn">
+                   
+                </div>
+            </div>
+        </div>
+    </div>     
+  
+    <div id="contact">
+        <h1>Contact Me</h1>
+        <div id="contact_div">
+            <div class="contact_div_1">
+                <a href= "tel:+918217356363" target="_blank" ><h2>+91 8217356363</h2></a>
+            </div>
+            <div class="contact_div_2">
+                <a href="mailto:mohammadshaquib7250@gmail.com" target="_blank" ><h2>mohammadshaquib7250@gmail.com</h2></a>
+            </div>
+        </div>
+        <div id="contact_logo">
+            <div>
+            <a href= "https://www.linkedin.com/in/mohammad-shaquib-a37960224 target="_blank"><img id="linkedin_2" src="https://www.fpsa.org/wp-content/uploads/linkedin-logo-copy.png" alt="linkedIn Logo"></a>
+        </div>
+            <div>
+            <a href= "https://github.com/Shaquibismile7250" target="_blank"><img id="github_2" src="https://i.pinimg.com/736x/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg" alt="github logo"></a>
+        </div>
+        <div>
+           <a href= "https://x.com/IsmileShaquib?t=RhlIxaqxGZM_kJNMDHAGlA&s=09" target="_blank" ><img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?size=338&ext=jpg&ga=GA1.1.1700460183.1707955200&semt=ais" alt=""></a>
+        </div>
+        </div>
+    </div>
+
+    <div id="copyright">
+        <p>copyright &#169; 2024 Mohammad Shaquib | All right reserved</p>
+    </div>
+</body>
+</html>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#hi',{
+      strings: ['A Passionate Full Stack Developer Crafting Digital Excellence.'],
+      typeSpeed: 50});
+  </script>
+<script src="./script.js"></script>
